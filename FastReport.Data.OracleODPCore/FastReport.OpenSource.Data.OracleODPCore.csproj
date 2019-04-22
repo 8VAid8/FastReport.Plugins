@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.0;net47</TargetFrameworks>
+		<SignAssembly>true</SignAssembly>
+		<AssemblyOriginatorKeyFile>../../../FastReport.Plugins.snk</AssemblyOriginatorKeyFile>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<Copyright>Fast Reports Inc.</Copyright>
+		<Company>Fast Reports Inc.</Company>
+		<PackageLicenseUrl>https://github.com/FastReports/FastReport/blob/master/LICENSE.md</PackageLicenseUrl>
+		<PackageProjectUrl>https://www.fast-report.com/en/product/fast-report-net</PackageProjectUrl>
+		<Authors>Fast Reports Inc.</Authors>
+		<Product>FastReport.Data.OracleODPCore</Product>
+		<Description>Represents a connection to Oracle database for FastReport.Net.</Description>
+		<PackageId>FastReport.OpenSource.Data.OracleODPCore</PackageId>
+		<PackageIconUrl>https://www.fast-report.com/download/images/frlogo-big.png</PackageIconUrl>
+		<PackageTags>reporting, oracle, core, connection, reports</PackageTags>
+		<Version>1.0.0</Version>
+		<Configurations>Debug;Release;</Configurations>
+		<AssemblyName>FastReport.Data.OracleODPCore</AssemblyName>
+		<RootNamespace>FastReport.Data</RootNamespace>
+		<PackageReleaseNotes></PackageReleaseNotes>
+        <RepositoryUrl>https://github.com/FastReports/FastReport</RepositoryUrl>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<DefineConstants>FRCORE;</DefineConstants>
+	</PropertyGroup>
+
+    <ItemGroup>
+		<ProjectReference Include="..\..\..\..\FastReport.OpenSource\FastReport.OpenSource.csproj" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<PackageReference Include="Oracle.ManagedDataAccess.Core" Version="[2.12.0-*,)" />
+	</ItemGroup>
+
+	<ItemGroup >
+		<Compile Remove="OracleConnectionEditor.cs" />
+		<Compile Remove="OracleConnectionEditor.Designer.cs" />
+		<Compile Remove="OracleConnectionEditor.resx" />
+		<Compile Remove="OracleConnectionEditor.DesignExt.cs" />
+	</ItemGroup>
+	<ItemGroup >
+		<EmbeddedResource Remove="OracleConnectionEditor.resx" />
+	</ItemGroup>
+</Project>
