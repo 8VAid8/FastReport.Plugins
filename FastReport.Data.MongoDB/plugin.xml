@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config version="net45">
+    <packages>
+        <package Name="MongoDB.Bson" Version="2.3.0"/>
+        <package Name="MongoDB.Driver" Version="2.3.0"/>
+        <package Name="MongoDB.Driver.Core" Version="2.3.0"/>
+    </packages>
+    <libs>
+        <lib Name="MongoDB.Bson.2.3.0\lib\net45\MongoDB.Bson.dll" />
+        <lib Name="MongoDB.Driver.2.3.0\lib\net45\MongoDB.Driver.dll" />
+        <lib Name="MongoDB.Driver.Core.2.3.0\lib\net45\MongoDB.Driver.Core.dll" />
+    </libs>
+    <refs>
+        <ref Name="MongoDB.Bson.dll" />
+        <ref Name="MongoDB.Driver.dll" />
+        <ref Name="MongoDB.Driver.Core.dll" />
+    </refs>
+</config>
