@@ -2,13 +2,13 @@
 <Plugins>
 	<Connectors>
 		<FastReport.Data.Couchbase Description="Represents a connection to Couchbase server for FastReport.Net." Versions="net45;netstandard2.0"/>
-		<FastReport.Data.Firebird Description="Represents a connection to Firebird data for FastReport.Net." versions="net452;netstandard1.6;netstandard2.0"/>
+		<FastReport.Data.Firebird Description="Represents a connection to Firebird data for FastReport.Net." Versions="net452;netstandard1.6;netstandard2.0"/>
         <FastReport.Data.Json Description="Represents a connection to Json data for FastReport.Net." Versions="net20;net35;net40;net45;netstandard1.3;netstandard2.0"/>
 		<FastReport.Data.MongoDB Description="Represents a connection to MongoDB data for FastReport.Net." Versions="net45;netstandard1.5"/>
 		<FastReport.Data.MySql Description="Represents a connection to MySql data for FastReport.Net." Versions="net20;net40;net45"/>
 		<FastReport.Data.OracleODPCore Description="Represents a connection to Oracle data for FastReport.Net." Versions="net40"/>
 		<FastReport.Data.Postgres Description="Represents a connection to Npgsql data for FastReport.Net." Versions="net20;net35;net40;net45"/>
 		<FastReport.Data.RavenDB Description="Represents a connection to RavenDB data for FastReport.Net." Versions="netstandard2.0"/>
-		<FastReport.Data.SQLite Description="Represents a connection to Sqlite data for FastReport.Net." versions="net20;net40;net45;net451;net46;netstandard2.0"/>
+		<FastReport.Data.SQLite Description="Represents a connection to Sqlite data for FastReport.Net." Versions="net20;net40;net45;net451;net46;netstandard2.0"/>
 	</Connectors>
 </Plugins>
